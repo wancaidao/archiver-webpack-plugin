@@ -13,7 +13,7 @@ yarn add add @yilabao/archiver-webpack-plugin --dev
 ```js
 // webpack.config.js:
 
-const ArchiverWebpackPlugin = require('add @yilabao/archiver-webpack-plugin');
+const ArchiverWebpackPlugin = require('@yilabao/archiver-webpack-plugin');
 
 export default {
   plugins: [
