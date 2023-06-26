@@ -1,0 +1,51 @@
+{
+    "name": "@yilabao/archiver-webpack-plugin",
+    "version": "1.0.0",
+    "description": "Webpack plugin to archive dist",
+    "type": "module",
+    "main": "./dist/index.cjs",
+    "types": "types.d.ts",
+    "exports": {
+        "types": "./types.d.ts",
+        "require": "./dist/index.cjs",
+        "import": "./src/index.js",
+        "default": "./src/index.js"
+    },
+    "engines": {
+        "node": "^14.13.1 || >=16.0.0"
+    },
+    "scripts": {
+        "dev": "rollup -c -w",
+        "build": "rollup -c",
+        "test": "ava"
+    },
+    "keywords": [
+        "webpack",
+        "archiver"
+    ],
+    "files": [
+        "dist",
+        "src",
+        "types.d.ts"
+    ],
+    "author": "wancaidao",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wancaidao/archiver-webpack-plugin.git"
+    },
+    "peerDependencies": {
+        "webpack": "^5.0.0"
+    },
+    "dependencies": {
+        "@types/archiver": "^5.3.1",
+        "archiver": "^5.3.1",
+        "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "@rollup/plugin-json": "^5.0.1",
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "rollup": "^3.3.0",
+        "webpack": "^5.75.0"
+    }
+}
