@@ -3,9 +3,11 @@
 ## Install
 
 ```bash
-npm install add @yilabao/archiver-webpack-plugin --save-dev
-# or
-yarn add add @yilabao/archiver-webpack-plugin --dev
+npm install @yilabao/archiver-webpack-plugin --save-dev
+```
+or
+```
+yarn add @yilabao/archiver-webpack-plugin --dev
 ```
 
 ## Usage
