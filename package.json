@@ -1,6 +1,6 @@
 {
     "name": "@yilabao/archiver-webpack-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Webpack plugin to archive dist",
     "type": "module",
     "main": "./dist/index.cjs",
@@ -10,9 +10,6 @@
         "require": "./dist/index.cjs",
         "import": "./src/index.js",
         "default": "./src/index.js"
-    },
-    "engines": {
-        "node": "^14.13.1 || >=16.0.0"
     },
     "scripts": {
         "dev": "rollup -c -w",
@@ -33,9 +30,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/wancaidao/archiver-webpack-plugin.git"
-    },
-    "peerDependencies": {
-        "webpack": "^5.0.0"
     },
     "dependencies": {
         "@types/archiver": "^5.3.1",
